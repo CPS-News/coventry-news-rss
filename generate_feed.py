@@ -1,3 +1,4 @@
+
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -288,7 +289,7 @@ ET.SubElement(
 
 
 # ---------------------------------------------------------
-# Last build date (feed generation time, not article time)
+# Last build date (feed generation time only)
 # ---------------------------------------------------------
 
 ET.SubElement(
@@ -300,7 +301,8 @@ ET.SubElement(
 
 
 # ---------------------------------------------------------
-# Add articles WITHOUT pubDate
+# Add articles with date-only metadata
+# No pubDate is generated.
 # ---------------------------------------------------------
 
 for article in articles:
@@ -330,6 +332,13 @@ for article in articles:
         "Coventry Public Schools: "
         + article["title"]
     )
+
+    # Preserve the actual publication date only.
+    # Example: 2026-10-26
+    ET.SubElement(
+        item,
+        "publicationDate"
+    ).text = article["published"].isoformat()
 
 
 # ---------------------------------------------------------

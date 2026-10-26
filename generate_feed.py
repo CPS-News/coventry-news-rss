@@ -1,7 +1,7 @@
-
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from email.utils import format_datetime
 from datetime import datetime, timezone
 import re
 import xml.etree.ElementTree as ET
@@ -26,8 +26,8 @@ ATOM_NS = "http://www.w3.org/2005/Atom"
 
 def parse_date(text):
     """
-    Find a date such as January 15, 2026.
-    Return a date without a time or timezone.
+    Look for a date such as:
+    January 15, 2026
     """
     if not text:
         return None
@@ -50,14 +50,16 @@ def parse_date(text):
         return datetime.strptime(
             date_text,
             "%B %d, %Y"
-        ).date()
+        ).replace(tzinfo=timezone.utc)
 
     except ValueError:
         return None
 
 
 def clean_text(text):
-    """Normalize whitespace."""
+    """
+    Normalize whitespace.
+    """
     if not text:
         return ""
 
@@ -128,7 +130,8 @@ for link in soup.find_all("a", href=True):
 
     href = link.get("href", "")
 
-    # Coventry article URLs look like /article/123456
+    # Coventry article URLs look like:
+    # /article/123456
     match = re.search(
         r"/article/(\d+)",
         href
@@ -160,7 +163,9 @@ for link in soup.find_all("a", href=True):
     # Look for the publication date near the article link.
     # -----------------------------------------------------
 
+    date_text = ""
     published = None
+
     parent = link
 
     for _ in range(10):
@@ -171,23 +176,37 @@ for link in soup.find_all("a", href=True):
             break
 
         surrounding_text = clean_text(
-            parent.get_text(" ", strip=True)
+            parent.get_text(
+                " ",
+                strip=True
+            )
         )
 
-        parsed_date = parse_date(surrounding_text)
+        parsed_date = parse_date(
+            surrounding_text
+        )
 
         if parsed_date:
+
             published = parsed_date
+            date_text = parsed_date.strftime(
+                "%B %d, %Y"
+            )
+
             break
 
     # -----------------------------------------------------
-    # Skip articles with no identifiable publication date.
+    # If no date was found, skip the article rather than
+    # pretending that it was published today.
     # -----------------------------------------------------
 
     if published is None:
+
         print(
-            f"WARNING: No publication date found for: {title}"
+            f"WARNING: No publication date found for: "
+            f"{title}"
         )
+
         continue
 
     articles.append(
@@ -210,6 +229,7 @@ articles.sort(
 
 articles = articles[:MAX_ARTICLES]
 
+
 print(
     f"Found {len(articles)} dated Coventry news articles."
 )
@@ -220,7 +240,11 @@ print(
 # ---------------------------------------------------------
 
 if not articles:
-    print("ERROR: No dated articles were found.")
+
+    print(
+        "ERROR: No dated articles were found."
+    )
+
     raise SystemExit(1)
 
 
@@ -228,14 +252,22 @@ if not articles:
 # Build RSS 2.0 feed
 # ---------------------------------------------------------
 
-ET.register_namespace("atom", ATOM_NS)
+ET.register_namespace(
+    "atom",
+    ATOM_NS
+)
 
 rss = ET.Element(
     "rss",
-    {"version": "2.0"}
+    {
+        "version": "2.0"
+    }
 )
 
-channel = ET.SubElement(rss, "channel")
+channel = ET.SubElement(
+    rss,
+    "channel"
+)
 
 
 # ---------------------------------------------------------
@@ -247,25 +279,32 @@ ET.SubElement(
     "title"
 ).text = "Coventry Public Schools News"
 
+
 ET.SubElement(
     channel,
     "link"
 ).text = NEWS_URL
 
+
 ET.SubElement(
     channel,
     "description"
-).text = "Latest news from Coventry Public Schools"
+).text = (
+    "Latest news from Coventry Public Schools"
+)
+
 
 ET.SubElement(
     channel,
     "language"
 ).text = "en-us"
 
+
 ET.SubElement(
     channel,
     "copyright"
 ).text = "Coventry Public Schools"
+
 
 ET.SubElement(
     channel,
@@ -289,25 +328,27 @@ ET.SubElement(
 
 
 # ---------------------------------------------------------
-# Last build date (feed generation time only)
+# Last build date
 # ---------------------------------------------------------
 
 ET.SubElement(
     channel,
     "lastBuildDate"
-).text = datetime.now(
-    timezone.utc
-).strftime("%a, %d %b %Y %H:%M:%S +0000")
+).text = format_datetime(
+    datetime.now(timezone.utc)
+)
 
 
 # ---------------------------------------------------------
-# Add articles with date-only metadata
-# No pubDate is generated.
+# Add articles
 # ---------------------------------------------------------
 
 for article in articles:
 
-    item = ET.SubElement(channel, "item")
+    item = ET.SubElement(
+        channel,
+        "item"
+    )
 
     ET.SubElement(
         item,
@@ -322,8 +363,15 @@ for article in articles:
     ET.SubElement(
         item,
         "guid",
-        {"isPermaLink": "true"}
+        {
+            "isPermaLink": "true"
+        }
     ).text = article["url"]
+
+    ET.SubElement(
+    item,
+    "pubDate"
+).text = article["published"].strftime("%Y-%m-%d")
 
     ET.SubElement(
         item,
@@ -332,13 +380,6 @@ for article in articles:
         "Coventry Public Schools: "
         + article["title"]
     )
-
-    # Preserve the actual publication date only.
-    # Example: 2026-10-26
-    ET.SubElement(
-        item,
-        "publicationDate"
-    ).text = article["published"].isoformat()
 
 
 # ---------------------------------------------------------

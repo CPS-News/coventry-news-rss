@@ -8,7 +8,7 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://allisonh22.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 26 Oct 2026 14:08:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 15:45:58 +0000</lastBuildDate>
     <item>
       <title>CGS: The Weekly Splash - 10/26/26</title>
       <link>https://www.coventrypublicschools.org/article/3213226</link>
@@ -38,6 +38,13 @@
       <description>Coventry Public Schools: K-5 Literacy Night Success!</description>
     </item>
     <item>
+      <title>GHR: Fun Run Confirmation and Reminders</title>
+      <link>https://www.coventrypublicschools.org/article/3213547</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213547</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coventry Public Schools: GHR: Fun Run Confirmation and Reminders</description>
+    </item>
+    <item>
       <title>October 2026 Coventry Spotlight</title>
       <link>https://www.coventrypublicschools.org/article/3202955</link>
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3202955</guid>
@@ -59,11 +66,32 @@
       <description>Coventry Public Schools: CPS Upstander Anti-Bullying Program</description>
     </item>
     <item>
+      <title>The CGS Sensory Garden Needs Volunteers!</title>
+      <link>https://www.coventrypublicschools.org/article/3213533</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213533</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coventry Public Schools: The CGS Sensory Garden Needs Volunteers!</description>
+    </item>
+    <item>
       <title>CGS: The Weekly Splash - 10/16/26</title>
       <link>https://www.coventrypublicschools.org/article/3213227</link>
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213227</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <description>Coventry Public Schools: CGS: The Weekly Splash - 10/16/26</description>
+    </item>
+    <item>
+      <title>CGS Fall Conferences</title>
+      <link>https://www.coventrypublicschools.org/article/3213535</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213535</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coventry Public Schools: CGS Fall Conferences</description>
+    </item>
+    <item>
+      <title>GHR: Parent Teacher Fall Conferences</title>
+      <link>https://www.coventrypublicschools.org/article/3213550</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213550</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Coventry Public Schools: GHR: Parent Teacher Fall Conferences</description>
     </item>
     <item>
       <title>CGS: Walk-A-Thon</title>
@@ -120,34 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3159929</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       <description>Coventry Public Schools: CHS: Announces Commended Student in the 2027 National Merit® Scholarship Program</description>
-    </item>
-    <item>
-      <title>Open Door Meetings 2026-2027</title>
-      <link>https://www.coventrypublicschools.org/article/3154711</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3154711</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Coventry Public Schools: Open Door Meetings 2026-2027</description>
-    </item>
-    <item>
-      <title>GHR: Weekly Update - 9/23/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213172</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213172</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Coventry Public Schools: GHR: Weekly Update - 9/23/26</description>
-    </item>
-    <item>
-      <title>CGS: The Weekly Splash - 9/18/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213233</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213233</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 9/18/26</description>
-    </item>
-    <item>
-      <title>GHR: Weekly Update - 9/16/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213175</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213175</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Coventry Public Schools: GHR: Weekly Update - 9/16/26</description>
     </item>
   </channel>
 </rss>

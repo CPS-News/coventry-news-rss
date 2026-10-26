@@ -369,11 +369,9 @@ for article in articles:
     ).text = article["url"]
 
     ET.SubElement(
-        item,
-        "pubDate"
-    ).text = format_datetime(
-        article["published"]
-    )
+    item,
+    "pubDate"
+).text = article["published"].strftime("%Y-%m-%d")
 
     ET.SubElement(
         item,

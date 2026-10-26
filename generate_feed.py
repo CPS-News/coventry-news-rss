@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 
 NEWS_URL = "https://www.coventrypublicschools.org/news"
 BASE_URL = "https://www.coventrypublicschools.org"
-FEED_URL = "https://allisonh22.github.io/coventry-news-rss/feed.xml"
+FEED_URL = "https://cps-news.github.io/coventry-news-rss/feed.xml"
 
 MAX_ARTICLES = 50
 

@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 27 Oct 2026 11:52:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:22:58 +0000</lastBuildDate>
+    <item>
+      <title>CGS: Community Garden</title>
+      <link>https://www.coventrypublicschools.org/article/3215375</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3215375</guid>
+      <pubDate>2026-10-27</pubDate>
+      <description>Coventry Public Schools: CGS: Community Garden</description>
+    </item>
     <item>
       <title>CGS: The Weekly Splash - 10/26/26</title>
       <link>https://www.coventrypublicschools.org/article/3213226</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213171</guid>
       <pubDate>2026-10-01</pubDate>
       <description>Coventry Public Schools: GHR: Weekly Update - 10/1/26</description>
-    </item>
-    <item>
-      <title>CHS: Announces Commended Student in the 2027 National Merit® Scholarship Program</title>
-      <link>https://www.coventrypublicschools.org/article/3159929</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3159929</guid>
-      <pubDate>2026-09-29</pubDate>
-      <description>Coventry Public Schools: CHS: Announces Commended Student in the 2027 National Merit® Scholarship Program</description>
     </item>
   </channel>
 </rss>

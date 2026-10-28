@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 28 Oct 2026 11:58:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 12:49:25 +0000</lastBuildDate>
+    <item>
+      <title>GHR: Weekly Update - 10/28/26</title>
+      <link>https://www.coventrypublicschools.org/article/3218248</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3218248</guid>
+      <pubDate>2026-10-28</pubDate>
+      <description>Coventry Public Schools: GHR: Weekly Update - 10/28/26</description>
+    </item>
     <item>
       <title>CGS: Community Garden</title>
       <link>https://www.coventrypublicschools.org/article/3215375</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3166440</guid>
       <pubDate>2026-10-01</pubDate>
       <description>Coventry Public Schools: Upcoming Road Construction on Lake Road</description>
-    </item>
-    <item>
-      <title>GHR: Weekly Update - 10/1/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213171</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213171</guid>
-      <pubDate>2026-10-01</pubDate>
-      <description>Coventry Public Schools: GHR: Weekly Update - 10/1/26</description>
     </item>
   </channel>
 </rss>

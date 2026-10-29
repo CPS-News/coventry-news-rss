@@ -8,13 +8,20 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 29 Oct 2026 14:28:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 15:25:03 +0000</lastBuildDate>
     <item>
       <title>CNH: Girls Soccer Championship 2026</title>
-      <link>https://www.coventrypublicschools.org/article/3219332</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3219332</guid>
-      <pubDate>2026-10-28</pubDate>
+      <link>https://www.coventrypublicschools.org/article/3222101</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3222101</guid>
+      <pubDate>2026-10-29</pubDate>
       <description>Coventry Public Schools: CNH: Girls Soccer Championship 2026</description>
+    </item>
+    <item>
+      <title>CHS: Center Stage Fall Drama Performance 2026</title>
+      <link>https://www.coventrypublicschools.org/article/3222088</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3222088</guid>
+      <pubDate>2026-10-29</pubDate>
+      <description>Coventry Public Schools: CHS: Center Stage Fall Drama Performance 2026</description>
     </item>
     <item>
       <title>GHR: Weekly Update - 10/28/26</title>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213231</guid>
       <pubDate>2026-10-05</pubDate>
       <description>Coventry Public Schools: CGS: The Weekly Splash - 10/2/26</description>
-    </item>
-    <item>
-      <title>Upcoming Road Construction on Lake Road: Correction</title>
-      <link>https://www.coventrypublicschools.org/article/3167425</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3167425</guid>
-      <pubDate>2026-10-02</pubDate>
-      <description>Coventry Public Schools: Upcoming Road Construction on Lake Road: Correction</description>
     </item>
   </channel>
 </rss>

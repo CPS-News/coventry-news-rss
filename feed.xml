@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 30 Oct 2026 11:38:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:22:58 +0000</lastBuildDate>
+    <item>
+      <title>GHR: Related Arts Newsletter</title>
+      <link>https://www.coventrypublicschools.org/article/3224106</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3224106</guid>
+      <pubDate>2026-10-30</pubDate>
+      <description>Coventry Public Schools: GHR: Related Arts Newsletter</description>
+    </item>
     <item>
       <title>CNH: Girls Soccer Championship 2026</title>
       <link>https://www.coventrypublicschools.org/article/3222101</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213168</guid>
       <pubDate>2026-10-07</pubDate>
       <description>Coventry Public Schools: GHR: Weekly Update - 10/7/26</description>
-    </item>
-    <item>
-      <title>CGS: The Weekly Splash - 10/2/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213231</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213231</guid>
-      <pubDate>2026-10-05</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/2/26</description>
     </item>
   </channel>
 </rss>

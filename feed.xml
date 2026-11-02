@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 02 Nov 2026 15:57:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:59:42 +0000</lastBuildDate>
+    <item>
+      <title>CNH: Girls Cross Country Championship 2026</title>
+      <link>https://www.coventrypublicschools.org/article/3228293</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3228293</guid>
+      <pubDate>2026-11-02</pubDate>
+      <description>Coventry Public Schools: CNH: Girls Cross Country Championship 2026</description>
+    </item>
     <item>
       <title>CGS: The Weekly Splash - 11/2/26</title>
       <link>https://www.coventrypublicschools.org/article/3227379</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3189354</guid>
       <pubDate>2026-10-13</pubDate>
       <description>Coventry Public Schools: CGS: Walk-A-Thon</description>
-    </item>
-    <item>
-      <title>CGS: The Weekly Splash - 10/9/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213228</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213228</guid>
-      <pubDate>2026-10-09</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/9/26</description>
     </item>
   </channel>
 </rss>

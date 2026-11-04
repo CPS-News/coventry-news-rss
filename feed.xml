@@ -8,7 +8,21 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 04 Nov 2026 13:45:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 14:42:22 +0000</lastBuildDate>
+    <item>
+      <title>CHS: Excels in College and Career Readiness</title>
+      <link>https://www.coventrypublicschools.org/article/3233052</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3233052</guid>
+      <pubDate>2026-11-04</pubDate>
+      <description>Coventry Public Schools: CHS: Excels in College and Career Readiness</description>
+    </item>
+    <item>
+      <title>Coventry Public Schools Accountability Index</title>
+      <link>https://www.coventrypublicschools.org/article/3233037</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3233037</guid>
+      <pubDate>2026-11-04</pubDate>
+      <description>Coventry Public Schools: Coventry Public Schools Accountability Index</description>
+    </item>
     <item>
       <title>GHR: Weekly Update - 11/4/26</title>
       <link>https://www.coventrypublicschools.org/article/3232904</link>
@@ -134,20 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213533</guid>
       <pubDate>2026-10-19</pubDate>
       <description>Coventry Public Schools: The CGS Sensory Garden Needs Volunteers!</description>
-    </item>
-    <item>
-      <title>CGS: The Weekly Splash - 10/16/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213227</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213227</guid>
-      <pubDate>2026-10-19</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/16/26</description>
-    </item>
-    <item>
-      <title>CGS Fall Conferences</title>
-      <link>https://www.coventrypublicschools.org/article/3213535</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213535</guid>
-      <pubDate>2026-10-14</pubDate>
-      <description>Coventry Public Schools: CGS Fall Conferences</description>
     </item>
   </channel>
 </rss>

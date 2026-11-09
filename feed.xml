@@ -8,7 +8,21 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 09 Nov 2026 17:24:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 18:35:35 +0000</lastBuildDate>
+    <item>
+      <title>CGS Extended Day Programming</title>
+      <link>https://www.coventrypublicschools.org/article/3242425</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3242425</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Coventry Public Schools: CGS Extended Day Programming</description>
+    </item>
+    <item>
+      <title>CGS: The Weekly Splash - 11/6/26</title>
+      <link>https://www.coventrypublicschools.org/article/3242419</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3242419</guid>
+      <pubDate>2026-11-09</pubDate>
+      <description>Coventry Public Schools: CGS: The Weekly Splash - 11/6/26</description>
+    </item>
     <item>
       <title>CHS: Excels in College and Career Readiness</title>
       <link>https://www.coventrypublicschools.org/article/3233052</link>
@@ -45,11 +59,11 @@
       <description>Coventry Public Schools: CNH: Girls Cross Country Championship 2026</description>
     </item>
     <item>
-      <title>CGS: The Weekly Splash - 11/2/26</title>
+      <title>CGS: The Weekly Splash - 10/30/26</title>
       <link>https://www.coventrypublicschools.org/article/3227379</link>
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3227379</guid>
       <pubDate>2026-11-02</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 11/2/26</description>
+      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/30/26</description>
     </item>
     <item>
       <title>GHR: Related Arts Newsletter</title>
@@ -87,11 +101,11 @@
       <description>Coventry Public Schools: CGS: Community Garden</description>
     </item>
     <item>
-      <title>CGS: The Weekly Splash - 10/26/26</title>
+      <title>CGS: The Weekly Splash - 10/23/26</title>
       <link>https://www.coventrypublicschools.org/article/3213226</link>
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213226</guid>
       <pubDate>2026-10-26</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/26/26</description>
+      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/23/26</description>
     </item>
     <item>
       <title>GHR: 5K Fun Run</title>
@@ -134,20 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213158</guid>
       <pubDate>2026-10-20</pubDate>
       <description>Coventry Public Schools: GHR: Weekly Update - 10/20/26</description>
-    </item>
-    <item>
-      <title>CPS Upstander Anti-Bullying Program</title>
-      <link>https://www.coventrypublicschools.org/article/3199823</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3199823</guid>
-      <pubDate>2026-10-19</pubDate>
-      <description>Coventry Public Schools: CPS Upstander Anti-Bullying Program</description>
-    </item>
-    <item>
-      <title>The CGS Sensory Garden Needs Volunteers!</title>
-      <link>https://www.coventrypublicschools.org/article/3213533</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213533</guid>
-      <pubDate>2026-10-19</pubDate>
-      <description>Coventry Public Schools: The CGS Sensory Garden Needs Volunteers!</description>
     </item>
   </channel>
 </rss>

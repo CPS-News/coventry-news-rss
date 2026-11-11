@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 11 Nov 2026 12:43:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 17:30:24 +0000</lastBuildDate>
+    <item>
+      <title>GHR: Weekly Update - 11/11/26</title>
+      <link>https://www.coventrypublicschools.org/article/3246900</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3246900</guid>
+      <pubDate>2026-11-11</pubDate>
+      <description>Coventry Public Schools: GHR: Weekly Update - 11/11/26</description>
+    </item>
     <item>
       <title>CGS Extended Day Programming</title>
       <link>https://www.coventrypublicschools.org/article/3242425</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3202955</guid>
       <pubDate>2026-10-20</pubDate>
       <description>Coventry Public Schools: October 2026 Coventry Spotlight</description>
-    </item>
-    <item>
-      <title>GHR: Weekly Update - 10/20/26</title>
-      <link>https://www.coventrypublicschools.org/article/3213158</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213158</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Coventry Public Schools: GHR: Weekly Update - 10/20/26</description>
     </item>
   </channel>
 </rss>

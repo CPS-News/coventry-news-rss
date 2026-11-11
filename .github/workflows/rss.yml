@@ -1,3 +1,4 @@
+
 name: Update Coventry RSS Feed
 
 on:
@@ -8,9 +9,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: coventry-rss-feed
+  cancel-in-progress: false
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Check out repository
@@ -31,9 +37,10 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Generate RSS feed
-        run: |
-          python generate_feed.py
+        run: python generate_feed.py
 
+      - name: Commit updated files
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 

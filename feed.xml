@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 12 Nov 2026 15:59:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:59:13 +0000</lastBuildDate>
+    <item>
+      <title>CHS: NLI Signing Day</title>
+      <link>https://www.coventrypublicschools.org/article/3249552</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3249552</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Coventry Public Schools: CHS: NLI Signing Day</description>
+    </item>
     <item>
       <title>GHR: CAS Art Awards</title>
       <link>https://www.coventrypublicschools.org/article/3249524</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3210398</guid>
       <pubDate>2026-10-23</pubDate>
       <description>Coventry Public Schools: CHS: Educatius Visit</description>
-    </item>
-    <item>
-      <title>K-5 Literacy Night Success!</title>
-      <link>https://www.coventrypublicschools.org/article/3209912</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3209912</guid>
-      <pubDate>2026-10-23</pubDate>
-      <description>Coventry Public Schools: K-5 Literacy Night Success!</description>
     </item>
   </channel>
 </rss>

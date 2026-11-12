@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 12 Nov 2026 12:43:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 13:58:56 +0000</lastBuildDate>
+    <item>
+      <title>CNH: Veterans Day Assembly</title>
+      <link>https://www.coventrypublicschools.org/article/3248921</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3248921</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Coventry Public Schools: CNH: Veterans Day Assembly</description>
+    </item>
     <item>
       <title>GHR: Weekly Update - 11/11/26</title>
       <link>https://www.coventrypublicschools.org/article/3246900</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213547</guid>
       <pubDate>2026-10-22</pubDate>
       <description>Coventry Public Schools: GHR: Fun Run Confirmation and Reminders</description>
-    </item>
-    <item>
-      <title>October 2026 Coventry Spotlight</title>
-      <link>https://www.coventrypublicschools.org/article/3202955</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3202955</guid>
-      <pubDate>2026-10-20</pubDate>
-      <description>Coventry Public Schools: October 2026 Coventry Spotlight</description>
     </item>
   </channel>
 </rss>

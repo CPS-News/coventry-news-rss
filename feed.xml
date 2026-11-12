@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 12 Nov 2026 14:53:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 15:59:02 +0000</lastBuildDate>
+    <item>
+      <title>GHR: CAS Art Awards</title>
+      <link>https://www.coventrypublicschools.org/article/3249524</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3249524</guid>
+      <pubDate>2026-11-12</pubDate>
+      <description>Coventry Public Schools: GHR: CAS Art Awards</description>
+    </item>
     <item>
       <title>CNH: Veterans Day Assembly</title>
       <link>https://www.coventrypublicschools.org/article/3248921</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3209912</guid>
       <pubDate>2026-10-23</pubDate>
       <description>Coventry Public Schools: K-5 Literacy Night Success!</description>
-    </item>
-    <item>
-      <title>GHR: Fun Run Confirmation and Reminders</title>
-      <link>https://www.coventrypublicschools.org/article/3213547</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3213547</guid>
-      <pubDate>2026-10-22</pubDate>
-      <description>Coventry Public Schools: GHR: Fun Run Confirmation and Reminders</description>
     </item>
   </channel>
 </rss>

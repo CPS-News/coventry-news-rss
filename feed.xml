@@ -8,7 +8,21 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 18 Nov 2026 14:20:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:18:02 +0000</lastBuildDate>
+    <item>
+      <title>CHS: Students Participate in Regional Music Festival</title>
+      <link>https://www.coventrypublicschools.org/article/3264926</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3264926</guid>
+      <pubDate>2026-11-18</pubDate>
+      <description>Coventry Public Schools: CHS: Students Participate in Regional Music Festival</description>
+    </item>
+    <item>
+      <title>GHR: Weekly Update - 11/18/26</title>
+      <link>https://www.coventrypublicschools.org/article/3262965</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3262965</guid>
+      <pubDate>2026-11-18</pubDate>
+      <description>Coventry Public Schools: GHR: Weekly Update - 11/18/26</description>
+    </item>
     <item>
       <title>GHR: Food Drive Success!</title>
       <link>https://www.coventrypublicschools.org/article/3259457</link>
@@ -134,20 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3222088</guid>
       <pubDate>2026-10-29</pubDate>
       <description>Coventry Public Schools: CHS: Center Stage Fall Drama Performance 2026</description>
-    </item>
-    <item>
-      <title>GHR: Weekly Update - 10/28/26</title>
-      <link>https://www.coventrypublicschools.org/article/3218248</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3218248</guid>
-      <pubDate>2026-10-28</pubDate>
-      <description>Coventry Public Schools: GHR: Weekly Update - 10/28/26</description>
-    </item>
-    <item>
-      <title>CGS: Community Garden</title>
-      <link>https://www.coventrypublicschools.org/article/3215375</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3215375</guid>
-      <pubDate>2026-10-27</pubDate>
-      <description>Coventry Public Schools: CGS: Community Garden</description>
     </item>
   </channel>
 </rss>

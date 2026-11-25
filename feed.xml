@@ -8,7 +8,14 @@
     <copyright>Coventry Public Schools</copyright>
     <ttl>15</ttl>
     <atom:link href="https://cps-news.github.io/coventry-news-rss/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 25 Nov 2026 03:49:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:36:48 +0000</lastBuildDate>
+    <item>
+      <title>GHR: Weekly Update - 11/25/26</title>
+      <link>https://www.coventrypublicschools.org/article/3627898</link>
+      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3627898</guid>
+      <pubDate>2026-11-25</pubDate>
+      <description>Coventry Public Schools: GHR: Weekly Update - 11/25/26</description>
+    </item>
     <item>
       <title>CHS: Girls Volleyball Team 2026 Championship Win!</title>
       <link>https://www.coventrypublicschools.org/article/3540292</link>
@@ -141,13 +148,6 @@
       <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3228293</guid>
       <pubDate>2026-11-02</pubDate>
       <description>Coventry Public Schools: CNH: Girls Cross Country Championship 2026</description>
-    </item>
-    <item>
-      <title>CGS: The Weekly Splash - 10/30/26</title>
-      <link>https://www.coventrypublicschools.org/article/3227379</link>
-      <guid isPermaLink="true">https://www.coventrypublicschools.org/article/3227379</guid>
-      <pubDate>2026-11-02</pubDate>
-      <description>Coventry Public Schools: CGS: The Weekly Splash - 10/30/26</description>
     </item>
   </channel>
 </rss>
